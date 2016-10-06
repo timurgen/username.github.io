@@ -196,6 +196,12 @@ input {
     -o-background-size: cover;
     background-size: cover;
 }
+@media(max-width: 800px){
+    #h {
+        padding-top: 15vh;
+        min-height: 50vh;
+    }
+}
 
 #h .logo {
 	top: 30px;
@@ -234,7 +240,7 @@ input {
 
 /* SEP */
 #sep {
-	background: url(../img/sep.jpg) no-repeat center top;
+	background: url(../img/25930659120_634ef58255_k.jpg) no-repeat center top;
 	padding-top: 90px;
 	text-align:center;
 	background-attachment: relative;
