@@ -382,6 +382,7 @@ ul {
 
 }
 i.social-link:hover {
+    color: #03C9A9;
     font-weight: 900;
     transition:  all 0.2s ease;
 }
