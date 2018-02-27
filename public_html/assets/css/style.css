@@ -399,3 +399,7 @@ i.social-link:hover {
     position: absolute;
     bottom: 5px;
 }
+
+.padding-bottom-15 {
+    padding-bottom:  15px !important;
+}
