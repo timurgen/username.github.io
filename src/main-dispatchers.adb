@@ -25,10 +25,6 @@ package body Main.Dispatchers is
       Translations : Templates.Translate_Set;
    begin
       if URI = "/" then
-         Templates.Insert
-           (Translations,
-            Templates.Assoc ("MESSAGE", "This is the main page"));
-
          return Response.Build
            (MIME.Text_HTML,
             String'(Templates.Parse
